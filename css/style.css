@@ -7,6 +7,9 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
 }
+.main-color{
+        color: #D97904;
+}
 .c-gold{
     color: #D97904;
     font-size: 30px;
@@ -14,7 +17,7 @@ body{
 }
 header{
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.274)), url( /Images/header.jpg) no-repeat center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.761)), url( /Images/henri.jpg) no-repeat center ;
     background-size: cover;
 }
 nav{
@@ -106,8 +109,35 @@ nav{
     color: #D97904;
     border: solid 1px;
     font-weight: 900;
+    text-decoration: none;
 }
 .btn-about-me a:active{
     background-color: white;
     font-weight: bolder;
+}
+.main-social-media{
+    flex: 1;
+    position: relative;
+}
+.main-social-media ul{
+    height: 100%;
+    position: absolute;
+    right: 0;
+    float: right;
+}
+.main-social-media ul li {
+    text-align: end;
+    list-style-type: none;
+}
+.main-social-media a i{
+    font-size: 25px;
+    color: white;
+    padding: 8px;
+    margin-right: 5px;
+    transition: ease 0.2s;
+}
+.main-social-media a i:hover{
+    font-size: 40px;
+    margin-right: 0px;
+    color: #D97904;
 }
