@@ -17,8 +17,10 @@ body{
 }
 header{
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.761)), url( /Images/henri.jpg) no-repeat center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.761)), url( /Images/back.JPG) no-repeat center ;
     background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 75% 89%, 25% 100%, 0 85%);
+
 }
 nav{
     height: 50px;
