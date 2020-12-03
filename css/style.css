@@ -7,6 +7,10 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
 .main-color{
         color: #D97904;
 }
@@ -15,27 +19,37 @@ body{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
 }
-.btn {
+.btn a{
     text-decoration: none;
     color: white;
     font-weight: bolder;
     text-align: center;
-    width: 250px;
-    display: inline-block;
     background-color: #D97904;
     border:  solid 1px transparent;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 20px;
     padding: 7px 20px;
     margin-top: 20px;
     transition: ease 0.3s;
 }
+.btn a:hover{
+    background-color: transparent;
+    color: #D97904;
+    border: solid 1px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.btn a:active{
+    background-color: white;
+    font-weight: bolder;
+}
 .title-section{
     color: #D97904;
-    font-weight: lighter;
+    font-weight: 600;
     font-size: 60px;
     padding: 60px;
     text-align: center;
+    text-shadow: 1px 1px 20px gray;
 }
 header{
     height: 100vh;
@@ -50,7 +64,7 @@ nav{
     background:linear-gradient(#d5e7f22a, #d5e7f200 );
     filter: blur();
 }
-.container{
+nav .container{
     width: 80%;
     margin: auto;
     display: flex;
@@ -115,30 +129,7 @@ nav{
     padding:20px 0px ;
 }
 .btn-about-me a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
     width: 150px;
-    display: block;
-    background-color: #D97904;
-    border:  solid 1px transparent;
-    border-radius: 15px;
-    font-size: 20px;
-    padding: 7px 20px;
-    margin-top: 20px;
-    transition: ease 0.3s;
-}
-.btn-about-me a:hover{
-    background-color: transparent;
-    color: #D97904;
-    border: solid 1px;
-    font-weight: 900;
-    text-decoration: none;
-}
-.btn-about-me a:active{
-    background-color: white;
-    font-weight: bolder;
 }
 .main-social-media{
     flex: 1;
@@ -180,10 +171,7 @@ nav{
     filter: drop-shadow(1px 1px 10px black);
 }
 .text-about-me{
-    line-height: 30px;
-    justify-items: flex-start;
-    background-color: yellowgreen;
-    position: relative;
+    line-height: 40px;
 }
 .text-about-me h3{
     background-color: #D97904;
@@ -194,10 +182,9 @@ nav{
     color: white;
 }
 .text-about-me p{
+    font-size: 15px;
     display: block;
-    width: 100%;
-    background-color: aqua;
 }
 .main-about-me .btn-download-CV{
-    display: block;
+    float: right;
 }
