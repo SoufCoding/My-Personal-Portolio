@@ -15,9 +15,31 @@ body{
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
 }
+.btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    background-color: #D97904;
+    border:  solid 1px transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 7px 20px;
+    margin-top: 20px;
+    transition: ease 0.3s;
+}
+.title-section{
+    color: #D97904;
+    font-weight: lighter;
+    font-size: 60px;
+    padding: 60px;
+    text-align: center;
+}
 header{
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.761)), url( /Images/back.JPG) no-repeat center ;
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.761)), url( /Images/back.JPG) no-repeat center fixed;
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 96%, 75% 89%, 25% 100%, 0 85%);
 
@@ -25,7 +47,8 @@ header{
 nav{
     height: 50px;
     line-height: 50px;
-    background:linear-gradient(#d5e7f27a, #d5e7f262);
+    background:linear-gradient(#d5e7f22a, #d5e7f200 );
+    filter: blur();
 }
 .container{
     width: 80%;
@@ -142,4 +165,39 @@ nav{
     font-size: 40px;
     margin-right: 0px;
     color: #D97904;
+}
+/**********About me **************/
+.main-about-me{
+    display: flex;
+    align-items: center;
+}
+.image-about-me{
+    text-align: right;
+    width: 500px;
+}
+.image-about-me img{
+    width: 700px;
+    filter: drop-shadow(1px 1px 10px black);
+}
+.text-about-me{
+    line-height: 30px;
+    justify-items: flex-start;
+    background-color: yellowgreen;
+    position: relative;
+}
+.text-about-me h3{
+    background-color: #D97904;
+    clip-path: polygon(0% 0%, 73% 0, 73% 49%, 100% 100%, 0 100%);
+    display: inline-block;
+    padding:5px 40px 5px 10px ;
+    font-size: 30px;
+    color: white;
+}
+.text-about-me p{
+    display: block;
+    width: 100%;
+    background-color: aqua;
+}
+.main-about-me .btn-download-CV{
+    display: block;
 }
