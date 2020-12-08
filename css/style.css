@@ -163,15 +163,18 @@ nav .container{
     align-items: center;
 }
 .image-about-me{
-    text-align: right;
-    width: 500px;
+    text-align: center;
+    flex: 1;
+    width: 100%;
 }
 .image-about-me img{
-    width: 700px;
-    filter: drop-shadow(1px 1px 10px black);
+    width: 250px;
+    height: 500px;
+    box-shadow: 5px 5px 20px black;
 }
 .text-about-me{
     line-height: 40px;
+    flex: 1;
 }
 .text-about-me h3{
     background-color: #D97904;
@@ -189,6 +192,9 @@ nav .container{
     float: right;
 }
 /***********************skills**********************/
+.skill-info{
+    margin: 20px 0px;
+}
 .row{
     display: flex;
     padding: 0px 100px;
