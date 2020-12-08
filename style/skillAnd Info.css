@@ -1,0 +1,133 @@
+
+/***********************skills**********************/
+.skill-info{
+    margin: 20px 0px;
+}
+.row{
+    display: flex;
+    padding: 0px 100px;
+}
+.skills{
+    flex: 1;
+    padding-left: 30px;
+}
+.skill{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.skill p {
+    height: 10px;
+    font-weight: bolder;
+    width: 70px;
+}
+.percent{
+    margin: 0px 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: #D97904 solid 1px;
+    height: 15px;
+    align-items: center;
+    position: relative;
+}
+.percent .html{
+    position: absolute;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: end;
+    line-height: 15px;
+    border-radius: 20px;
+    background-color: #D97904;
+    color: white;
+    padding-right: 3%;
+    width: 90%;
+}
+.percent .css{
+    position: absolute;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: end;
+    line-height: 15px;
+    border-radius: 20px;
+    background-color: #D97904;
+    color: white;
+    padding-right: 3%;
+    width: 86%;
+}
+.percent .js{
+    position: absolute;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: end;
+    line-height: 15px;
+    border-radius: 20px;    
+    background-color: #D97904;
+    color: white;
+    padding-right: 3%;
+    width: 65%;
+}
+.percent .bootstrap{
+    position: absolute;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: end;
+    line-height: 15px;
+    border-radius: 20px;    
+    background-color: #D97904;
+    color: white;
+    padding-right: 3%;
+    width: 80%;
+}
+.percent .react{
+    position: absolute;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: end;
+    line-height: 15px;
+    border-radius: 20px;    
+    background-color: #D97904;
+    color: white;
+    padding-right: 3%;
+    width: 35%;
+}
+.percent .wordpress{
+    position: absolute;
+    height: 100%;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: end;
+    line-height: 15px;
+    border-radius: 20px;    
+    background-color: #D97904;
+    color: white;
+    padding-right: 3%;
+    width: 20%;
+}
+
+.skill img{
+    width: 20px;
+}
+
+
+
+.info{
+    flex: 1;
+    padding-left: 50px;
+
+    
+}
+.info p{
+    margin: 20px 0px;
+    height: 30px;
+    align-items: center;
+    color: gray;
+}
+.info p span{
+    font-weight: bolder;
+}
