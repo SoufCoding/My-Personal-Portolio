@@ -1,0 +1,35 @@
+footer{
+    background: gray;
+    height: 100vh;
+}
+footer .container{
+    width: 50%;
+    text-align: center;
+    background-color: green;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+footer .container .title-section{
+    width: 500px;
+}
+.input{
+    background-color: greenyellow;
+    margin: auto;
+    position: relative;
+    display: block;
+}
+.input label{
+    font-size: 25px;
+    font-weight: bold;
+}
+.I-text{
+    width: 500px;
+}
+.I-phone,.I-email{
+    width: 200px;
+}
+.input input{
+    width: 100%;
+}
+
+
